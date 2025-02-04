@@ -1,0 +1,15 @@
+{
+	"name": "Your Boilerplate",
+	"team": "Ibotta Team",
+	"service_tier": ["1", "2", "3"],
+	"data_classification": ["1", "2", "3"],
+	"version": "0.0.1",
+	"_cortex_field_configurations": {
+		"service_tier": {
+		  "description": "1 (Critical - Directly impacts the core apps and business functions)\n2 (Important - No direct impact to core apps and business functions, but may degrade user experience)\n3 (Everything else - No impact to core apps and business functions)",
+		},
+		"data_classification": {
+		  "description": "1 (Restricted / Confidential)\n2 (Internal)\n3 (Public)"
+		}
+	  }
+}

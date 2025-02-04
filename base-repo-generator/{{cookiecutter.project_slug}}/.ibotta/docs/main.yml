@@ -1,0 +1,22 @@
+# --------------------------------------
+# Ibotta Repository Main Metadata File
+# Guide: https://catalog.ibops.net/repo/tech-knowledge/doc/user-guides/main-yml?branch=main
+# --------------------------------------
+name: {{ cookiecutter.name }}
+description: {{ cookiecutter.name }}
+tier: {{ cookiecutter.service_tier }}
+data_classification: {{ cookiecutter.data_classification }}
+# framework: <framework>
+
+#dashboards:
+#  - title: Datadog
+#    url: https://app.datadoghq.com/dashboard/YOUR-DASH-ID
+
+nav:
+  - title: Documentation
+    type: nav
+    children:
+      - title: Overview
+        file: README.md
+
+type: service
