@@ -1,7 +1,6 @@
 {
 	"name": "Your Boilerplate",
 	"project_slug": "{{ cookiecutter.name.lower().replace(' ', '-') }}",
-	"@cortex_hidden_keys": ["project_slug"],
 	"team": "Ibotta Team",
 	"service_tier": ["1", "2", "3"],
 	"data_classification": ["1", "2", "3"],
