@@ -1,4 +1,4 @@
-# {{ cookiecutter.project_name }}
+# {{ cookiecutter.name }}
 Maintained by ${{ cookiecutter.team }}
 
 1. [Overview](#overview)
@@ -6,7 +6,7 @@ Maintained by ${{ cookiecutter.team }}
 1. [Contributing](#contributing)
 
 ## Overview
-{{ cookiecutter.project_name }} Details
+{{ cookiecutter.name }} Details
 
 ## Deployment 
 Deployment Details
