@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Webpage</title>
+</head>
+<body>
+    <ul id="navigation">
+    {% for item in cookiecutter.navigation %}
+        <li><a href="{{ item }}">LINK</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

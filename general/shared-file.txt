@@ -1,0 +1,3 @@
+here's a shared file yoinked from a symlink
+
+{{ cookiecutter.description }}
