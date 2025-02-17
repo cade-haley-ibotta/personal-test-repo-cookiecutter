@@ -2,9 +2,16 @@
 	"name": "Your Boilerplate",
 	"project_slug": "{{ cookiecutter.name.lower().replace(' ', '-') }}",
 	"@cortex_hidden_keys": ["project_slug"],
-	"team": "Ibotta Team",
 	"service_tier": ["1", "2", "3"],
 	"data_classification": ["1", "2", "3"],
+	"atlantis_instance": ["None", "Atlantis Microservices", "Atlantis IPN", "Atlantis Payments (restricted)"],
+	"team": "Ibotta Team",
+	"group": "Ibotta Group",
+	"subgroup": "Ibotta Subgroup",
+	"platform_domain": "Ibotta Platform Domain",
+	"team_slack_channel": "Team Slack Channel",
+	"team_email": "Team Email",
+
 	"version": "0.0.1",
 	"_cortex_field_configurations": {
 		"service_tier": {
