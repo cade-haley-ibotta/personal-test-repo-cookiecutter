@@ -1,5 +1,5 @@
 # {{ cookiecutter.name }}
-Maintained by ${{ cookiecutter.team }}
+Maintained by {{ cookiecutter.team }}
 
 1. [Overview](#overview)
 1. [Deployment](#deployment)

@@ -1,0 +1,16 @@
+# --------------------------------------
+# Ibotta Repository Team Metadata File
+# Guide: https://catalog.ibops.net/repo/tech-knowledge/doc/user-guides/team-yml?branch=main
+# --------------------------------------
+name: {{ cookiecutter.team  }}
+group: {{ cookiecutter.group  }}
+subgroup: {{ cookiecutter.subgroup }}
+
+slack:
+  "{{ cookiecutter.team_slack_channel }}":
+    url: "https://ibotta.slack.com/channels/{{ cookiecutter.team_slack_channel }}"
+    desc: "{{ cookiecutter.team }} team slack channel"
+
+email:
+  "{{ cookiecutter.team_email }}":
+    desc: "{{ cookiecutter.team }} team e-mail"
